@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "RobotoSlab-Regular";
+    src: url(fonts/RobotoSlab-Regular.ttf) format("truetype");
+    font-family: "SourceSansPro-Regular";
+    src: url(fonts/SourceSansPro-Regular.ttf) format("truetype");
+}
+
+@media  screen and (min-width:1200px) {
+  
+    .part1 {
+        padding-top: 50px;
+        margin-right: 30px;
+    }
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+}
+
+h1, h2 {
+    font-family: "RobotoSlab-Regular";
+}
+
+main p {
+    font-family: "SourceSansPro-Regular";
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid gray;
+}
+header a {
+    margin: 20px;
+    transition: 1s linear;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(143, 143, 143);
+}
+.main {
+    background: url(../images/bg.jpg) no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    min-height: 1000px;
+}
+.part1 {
+    padding-top: 50px;
+}
+
+.part1 p a {
+    margin-left: 15px;
+}
+
+.info {
+    padding-top: 50px;
+}
+
+.photo {
+    border: 1px solid gray;
+    width: 300px;
+}
+
+.subtitle {
+    border-left: 5px solid rgb(212, 67, 103);
+    padding-left: 10px;
+    color: black;
+    margin-top: 30px;
+}
+
+.footer {
+    padding-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vk {
+    background: rgb(58, 58, 189);
+    color: white;
+}
